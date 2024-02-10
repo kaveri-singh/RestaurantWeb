@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Bun</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="styleorder.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="card1">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="about">Order Details</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-1">
+                        <img src="green dot.png" height="20px">
+                    </div>
+                    <div class="col-md-5">
+                        <b>Big Bun</b><br>
+                        <b>₹70</b><br>
+                        <a style="color: black;" href="order">Edit</a>
+                    </div>
+                    <div class="col-md-6" style="text-align: right;">
+                        <b>1</b>
+                        <P>₹70</P>
+                    </div>
+                </div><br>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="user-box">
+                            <input type="text" name="" required="">
+                            <label>Additional Instructions</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>Item Total<br>
+                            GST and Restaurant Charges<br>
+                            Delivery Partner</p>
+                        <b>Grand Total</b>
+                        <p>Discount</p>
+                        <b>To Pay</b>
+                    </div>
+                    <div class="col-md-6" style="text-align: right;">
+                        <p>₹70<br>
+                            ₹30<br>
+                            FREE</p>
+                        <b>₹100</b>
+                        <p>-10%</p>
+                        <b>₹90</b>
+                    </div>
+                </div><br>
+                <div class="row">
+                    <div class="col">
+                        <select class="button" name="payment_method" id="payment_method">
+                            <option value="pay">Select Payment Method</option>
+                            <option value="Cash">Cash On Delivery</option>
+                            <option value="UPI">UPI</option>
+                            <option value="Net">Net Banking</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <a href="orderplaced.html">
+                            <button class="button1">Place Order</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
